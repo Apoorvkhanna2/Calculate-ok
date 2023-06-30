@@ -1,0 +1,74 @@
+
+<html >
+ 
+<head>
+ <title>Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+ 
+<body>
+ <h1><b><u>Calculator</u></b></h1>
+<table class="Calculator" >
+  <tr>
+    <td colspan="3"> <input class="display-box" type="text" id="result" disabled /> </td>
+ 
+    
+    <td> <input type="button" value="C" onclick="clearScreen()" id="btn" /> </td>
+  </tr>
+  <tr>
+    <td> <input type="button" value="1" onclick="display('1')" /> </td>
+    <td> <input type="button" value="2" onclick="display('2')" /> </td>
+    <td> <input type="button" value="3" onclick="display('3')" /> </td>
+    <td> <input type="button" value="/" onclick="display('/')" /> </td>
+  </tr>
+  <tr>
+    <td> <input type="button" value="4" onclick="display('4')" /> </td>
+    <td> <input type="button" value="5" onclick="display('5')" /> </td>
+    <td> <input type="button" value="6" onclick="display('6')" /> </td>
+    <td> <input type="button" value="-" onclick="display('-')" /> </td>
+  </tr>
+  <tr>
+    <td> <input type="button" value="7" onclick="display('7')" /> </td>
+    <td> <input type="button" value="8" onclick="display('8')" /> </td>
+    <td> <input type="button" value="9" onclick="display('9')" /> </td>
+    <td> <input type="button" value="+" onclick="display('+')" /> </td>
+  </tr>
+  <tr>
+    <td> <input type="button" value="." onclick="display('.')" /> </td>
+    <td> <input type="button" value="0" onclick="display('0')" /> </td>`
+    <td> <input type="button" value="=" onclick="calculate()" id="btn" /> </td>
+    <td> <input type="button" value="*" onclick="display('*')" /> </td>
+  </tr>
+</table>
+ <pre>
+                                                      Made by Apoorv Khanna
+ </pre>
+<script type="text/javascript" src="script.js"></script>
+ <style>
+    body{
+      background-image: url(calculator.jpg);
+        background-color: cyan;
+        text-align: center;
+    }
+    h1{
+      color: blue;
+      font-size: 40px;
+      font-family: fantasy;
+    }
+    table , tr ,td{
+      text-align: center;
+      border: 2px solid black;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    pre{
+      font-size: 20px;
+      background-color: red;
+      text-decoration: dotted;
+      font-family: cursive;
+    }
+    </style>
+</body>
+
+ 
+</html>
